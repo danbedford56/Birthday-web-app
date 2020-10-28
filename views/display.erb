@@ -1,0 +1,10 @@
+<link rel="stylesheet" type="text/css" href="/css/birthday.css"/>
+<%if @is_bday == true%>
+    <body>
+        <h1> Happy Birthday <%=@name%> </h1>
+    </body>
+<%else%>
+    <body>
+        <h1> Your birthday is in <%=@is_bday.to_i%> days!</h1>
+    </body>
+<%end%>
